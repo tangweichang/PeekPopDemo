@@ -43,5 +43,33 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeAdd</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>Add new user</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>weichang.apptry.peekandpopdemo.newuser</string>
+            <key>UIApplicationShortcutItemUserInfo</key>
+                <dict>
+                    <key>username</key>
+                    <string>TJ</string>
+                </dict>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeMessage</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>Send a message</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>weichang.apptry.peekandpopdemo.newmessage</string>
+        </dict>
+
+    </array>
+    
+    
+    
 </dict>
 </plist>
